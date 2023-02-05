@@ -24,6 +24,10 @@ public class Sender : MonoBehaviour
         // Singleton.instance.DisplayText();
         
         // Invoke LoadNewScene function after 3 seconds
+
+        // set coin collected amount to be 2
+        Singleton.instance.coinCollected = 2;
+        
         Invoke("LoadNewScene", 3f);
     }
 

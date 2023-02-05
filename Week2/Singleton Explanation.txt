@@ -7,3 +7,7 @@ all objects from the previous scene are destroyed.
 
 To prevent it, call the function: DontDestoryOnLoad() and pass in to the gameObject
 	gameObject refer to the gameObject who hold the script
+
+Ususally the Singleton object is the Game Controller/ Game Manager(hold data for the entire game: score, current coin count, life count)
+
+Keep one object through the entire game play(in any scene)
