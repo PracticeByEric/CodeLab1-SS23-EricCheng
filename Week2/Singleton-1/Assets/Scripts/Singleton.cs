@@ -14,22 +14,23 @@ public class Singleton : MonoBehaviour
     private void Awake()
     {
         // create a static object instance when script loaded
-        // MakeSingleton();
+        MakeSingleton();
     }
 
     void Start()
     {
-    
+        DisplayText();
     }
 
     // create singleton
     void MakeSingleton()
     {
-        // if no Singleton instance created
+        // if Singleton object exists
         if (instance != null)
         {
             Destroy(gameObject);
         }
+        // if no Singleton instance created
         else
         {
             instance = this;
