@@ -23,12 +23,14 @@ public class Sender : MonoBehaviour
         // easily access singleton object
         // Singleton.instance.DisplayText();
         
-        // invoke LoadNewScene function after 3 seconds
+        // Invoke LoadNewScene function after 3 seconds
         Invoke("LoadNewScene", 3f);
     }
 
     void LoadNewScene()
     {
+        // load anther scene
+        // scene need to be added to the builder
         SceneManager.LoadScene("Scene1");
     }
 
