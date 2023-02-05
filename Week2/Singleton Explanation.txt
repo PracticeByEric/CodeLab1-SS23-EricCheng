@@ -10,4 +10,4 @@ To prevent it, call the function: DontDestoryOnLoad() and pass in to the gameObj
 
 Ususally the Singleton object is the Game Controller/ Game Manager(hold data for the entire game: score, current coin count, life count)
 
-Keep one object through the entire game play(in any scene)
+Carry value from one scene to another scene throughout the entire game play(in any scene)

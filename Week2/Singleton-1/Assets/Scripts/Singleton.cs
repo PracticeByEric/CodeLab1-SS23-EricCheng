@@ -23,7 +23,7 @@ public class Singleton : MonoBehaviour
 
     void Start()
     {
-        DisplayText();
+       // DisplayText();
     }
 
     // create singleton
