@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1294835306654846057}
   - component: {fileID: -582035452065612015}
   m_Layer: 0
-  m_Name: Tube
+  m_Name: TubeSingle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
