@@ -24,12 +24,17 @@ public class SceneChanger : MonoBehaviour
     {
         LoadNewScene();
         
-
-        PropellerRotation.Instance.rAngle += 50;
+        
     }
 
     void LoadNewScene()
     {
         SceneManager.LoadScene("Scene1");
+        
+        PropellerRotation.Instance.rAngle += 50;
+        
+        PlayerControl.Instance.transform.position = new Vector3(-0.5f, 12f, 3.9f);
+        PlayerControl.Instance._rb.velocity = Vector3.zero;
+        PlayerControl.Instance._rb.useGravity = false;
     }
 }
